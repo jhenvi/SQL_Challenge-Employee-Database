@@ -1,18 +1,16 @@
 Employee Data Base
  
- Data Modeling, Data Engineering and Data Analysis of an Employee DB using PostgreSQL
+Data Modeling, Data Engineering and Data Analysis of an Employee DB using PostgreSQL
 
-DATA INGENEERING
-I used the information to create a table schema for each of the six CSV files. Specifying data types, primary keys, foreign keys, and other constraints.
-Imported each CSV file into the corresponding SQL table.
-
-DATA ANALYSIS
-In the SQL file you will find the queries that analyse the following specifications:
 DATA MODELLING
-After inspecting the CSVs in this this repo, Sketched out an ERD (Entity Relationship Diagram) of the tables. http://www.quickdatabasediagrams.com.
+To map different relationships in the data base I drew the schemas using  the http://www.quickdatabasediagrams.com.
+DATA INGENEERING
+I reviewed information and created a table schema for each of the six data files. Specifying data types, primary keys, foreign keys, and other constraints. Imported csv files to a SQL database to its respective tables. 
+DATA ANALYSIS
+SQL folder with query analysis that provide the following results:
 - Details of each employee: employee number, last name, first name, gender, and salary.
 - Employees who were hired in 1986.
-- Manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
+- Manager of each department with the following information: department number, department name, the manager's employee number, last name,   first name, and start and end employment dates.
 - Department of each employee with the following information: employee number, last name, first name, and department name.
 - Employees whose first name is "Hercules" and last names begin with "B."
 - Employees in the Sales department, including their employee number, last name, first name, and department name.
